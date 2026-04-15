@@ -7,5 +7,5 @@ TOP:
 
 Aktivita:
 Samuel - brght_speed.vhdl, Schema_finale.png
-\n 
+<br>
 Jakub - RGB_fade.vhd, vypis do gitu
