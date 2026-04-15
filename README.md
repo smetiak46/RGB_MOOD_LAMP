@@ -6,6 +6,12 @@ TOP:
 <img width="1120" height="561" alt="Schema_finale" src="https://github.com/user-attachments/assets/52d2d30c-f5c2-4828-ad92-12b19caf74ba" />
 
 Aktivita:
-Samuel - brght_speed.vhdl, Schema_finale.png
+Samuel - brght_speed.vhdl,brght_speed_tb.vhdl,
 <br>
-Jakub - RGB_fade.vhd, vypis do gitu
+Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu
+
+Simulácie:
+<br>
+Sim brght_speed_tb.vhdl
+<img width="1636" height="443" alt="simulacia_brght_speed" src="https://github.com/user-attachments/assets/2d679251-3959-4675-8793-9735bba40000" />
+
