@@ -17,3 +17,6 @@ Sim brght_speed_tb.vhdl
 Simulujeme postupne zmeny speed od 0 do 255 a zmenu jasu od 0 do 255 s 8-bitovými countrami, ovladane clockom a resetom. 
 <img width="1636" height="443" alt="simulacia_brght_speed" src="https://github.com/user-attachments/assets/2d679251-3959-4675-8793-9735bba40000" />
 
+brght_speed.vhdl slúži k nastaveniu jasu pomocou tlačítok up a down, a nastaveniu rýchlosti prechodu farieb tlačidlami left a right, debounce slúži k odladeniu šumov pri stláčaní tlačidiel  
+<br>
+RGB_fade.vhdl slúži k vytvoreniu postupného prechodu farieb RGB
