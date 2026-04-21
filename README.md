@@ -6,7 +6,11 @@ TOP:
 <img width="1120" height="561" alt="Schema_finale" src="https://github.com/user-attachments/assets/52d2d30c-f5c2-4828-ad92-12b19caf74ba" />
 
 Popis I/O portov: <br>
+btnu, btnd, btnr, btnl - sigál budený tlačidlami na doske NEXYS A7-50T, ktoré slúžia k nastaveniu hodnoty jasu a rýchlosti prechodu RGB farieb <br>
+clk - hlavný hodinový signál <br>
+rst - signál, ktorý uvedie počítadla do pôvodného stavu <br>
 
+Modul brght_speed:
 
 
 Aktivita:
