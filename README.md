@@ -2,6 +2,13 @@
 
 rgb lampa preblikávajúca medzi RGB farbami a ich odtienami s možnosťou zmeny rýchlosti a intenzity jasu RGB led diódy pomocou tlačidiel dosky NEXYS A7-50T
 
+Aktivita:
+2. týždeň: <br>
+Samuel - brght_speed.vhdl,brght_speed_tb.vhdl, vypis do gitu 
+<br>
+Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu 
+3. týždeň: <br>
+
 TOP:
 <img width="1120" height="561" alt="Schema_finale" src="https://github.com/user-attachments/assets/52d2d30c-f5c2-4828-ad92-12b19caf74ba" />
 
@@ -64,14 +71,6 @@ Modul PWM: <br>
   green_out - vysiela signál na rozsvietenie zelenej led diódy RGB diódy
   blue_out - vysiela signál na rozsvietenie modrej led diódy RGB diódy
   
-Aktivita:
-2. týždeň: <br>
-Samuel - brght_speed.vhdl,brght_speed_tb.vhdl, vypis do gitu 
-<br>
-Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu 
-3. týždeň: <br>
-
-
 Simulácie:
 <br>
 Sim brght_speed_tb.vhdl
