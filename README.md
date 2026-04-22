@@ -16,7 +16,7 @@ Popis I/O portov: <br>
 
 <h1 style="color: #4CAF50;"> Modul Top: </h1>
 
-  Vstupy: <br>
+  <span style="color: red;"><h2> Vstupy: </h2></span>
   btnu, btnd, btnr, btnl - signál budený tlačidlami na doske NEXYS A7-50T, ktoré slúžia k nastaveniu hodnoty jasu a rýchlosti prechodu RGB farieb <br>
   clk - hlavný hodinový signál <br>
   rst - signál, ktorý uvedie počítadla do pôvodného stavu <br>
