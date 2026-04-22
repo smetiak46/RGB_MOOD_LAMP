@@ -14,7 +14,7 @@ TOP:
 
 Popis I/O portov: <br>
 
-<h1 style color="red"> Modul Top: </h1>
+<h1 style="color: #4CAF50;"> Modul Top: </h1>
 
   Vstupy: <br>
   btnu, btnd, btnr, btnl - signál budený tlačidlami na doske NEXYS A7-50T, ktoré slúžia k nastaveniu hodnoty jasu a rýchlosti prechodu RGB farieb <br>
@@ -26,7 +26,7 @@ Popis I/O portov: <br>
   led_g - rozsvieti zelenú ledku
   ôeg_b - rozsvieti modrú ledku
   
-Modul debounce: <br>
+<h1 style="color: #4CAF50;"> Modul debounce: </h1>
 
   Vstupy: <br>
   btn_in - prijíma signál vyslaný z tlačidla dosky na spracovanie v bloku debounce
@@ -36,7 +36,7 @@ Modul debounce: <br>
 
   signály index_brightness, index_speed - prenáša odfiltrované signály medzi modulom debounce a brght_speed <br> 
 
-Modul brght_speed: <br>
+<h1 style="color: #4CAF50;"> Modul brght_speed: </h1>
 
   Vstupy: <br>
   btnu - signál pre zvýšenie hodnoty jasu <br> 
@@ -50,7 +50,7 @@ Modul brght_speed: <br>
 
   signály brght_sig(7:0) a speed_sig(7:0) prenášajú hodnotu jasu a rýchlosti z modulu brght_speed do modulu RGB_fade
 
-Modul RGB_fade: <br>
+<h1 style="color: #4CAF50;"> Modul RGB_fade: </h1>
 
   Vstupy: <br>
   brght(7:0) - 8 bitový vektor s prevzatou hodnotou jasu z modulu brght_speed <br>
@@ -61,7 +61,7 @@ Modul RGB_fade: <br>
 
   signály red_sig(7:0), green_sig(7:0), blue_sig(7:0) prenášajú parametre z bloku RGB_fade do bloku PWM <br>
 
-Modul PWM: <br>
+<h1 style="color: #4CAF50;"> Modul PWM: </h1>
 
   Vstupy: <br>
   red(7:0), green(7:0), blue(7:0) - 8-bitové hodnoty okamžitej intenzity RGB zložiek, ktoré sa s časom menia prevzaté z bloku RGB_fade <br>
@@ -71,8 +71,8 @@ Modul PWM: <br>
   green_out - vysiela signál na rozsvietenie zelenej led diódy RGB diódy
   blue_out - vysiela signál na rozsvietenie modrej led diódy RGB diódy
   
-Simulácie:
-<br>
+<h1 style="color: #4CAF50;"> Simulácie: </h1>
+
 Sim brght_speed_tb.vhdl
 <br>
 Simulujeme postupne zmeny speed od 0 do 255 a zmenu jasu od 0 do 255 s 8-bitovými countrami, ovladane clockom a resetom. 
