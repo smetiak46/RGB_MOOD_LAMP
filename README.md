@@ -14,7 +14,7 @@ TOP:
 
 Popis I/O portov: <br>
 
-Modul Top: <br>
+<h1>Modul Top: </h1>
 
   Vstupy: <br>
   btnu, btnd, btnr, btnl - signál budený tlačidlami na doske NEXYS A7-50T, ktoré slúžia k nastaveniu hodnoty jasu a rýchlosti prechodu RGB farieb <br>
