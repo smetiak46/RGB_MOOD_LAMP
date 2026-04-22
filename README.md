@@ -81,5 +81,5 @@ Simulujeme  zmeny speed pre definované konštanty a zmenu jasu  pre definované
 brght_speed.vhdl slúži k nastaveniu jasu pomocou tlačítok up a down, a nastaveniu rýchlosti prechodu farieb tlačidlami left a right, debounce slúži k odladeniu šumov pri stláčaní tlačidiel  
 <br>
 RGB_fade.vhdl slúži k vytvoreniu postupného prechodu farieb RGB<br>
-<img width="1047" height="401" alt="tb_fade" src="https://github.com/user-attachments/assets/1ac3317f-052f-4584-b5b3-d117a486ff8c" />
+<img width="1047" height="401" alt="tb_fade" src="images/tb_fade.png"/>
 
