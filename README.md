@@ -10,7 +10,7 @@ Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu
 3. týždeň: <br>
 
 TOP:
-<img width="1120" height="561" alt="Schema_finale" src="https://github.com/user-attachments/assets/52d2d30c-f5c2-4828-ad92-12b19caf74ba" />
+<img width="1120" height="561" alt="Schema_finale" src=images/TOP_SCHEMA_RGB_LAMP.png"/>
 
 Popis I/O portov: <br>
 
