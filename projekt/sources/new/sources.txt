@@ -1,1 +1,1 @@
-novo vytvorené zdroje vo Vivade potrebné pre projekt 
+novo vytvorené moduly vo Vivade potrebné pre projekt 
