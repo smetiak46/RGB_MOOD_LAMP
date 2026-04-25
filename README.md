@@ -11,24 +11,6 @@ Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu
 
 <h1 style="color: #4CAF50;"> Popis I/O portov </h1>
 
-  <head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
 </head>
 <body>
 <table>
