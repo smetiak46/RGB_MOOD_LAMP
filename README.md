@@ -12,8 +12,6 @@ Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu
 TOP:
 <img width="1120" height="561" alt="Schema_finale" src="images/TOP_SCHEMA_RGB_LAMP.png"/>
 
-Popis I/O portov: <br>
-
 <h1 style="color: #4CAF50;"> Modul Top: </h1>
 
   <span style="color: red;"><h2> Vstupy: </h2></span>
