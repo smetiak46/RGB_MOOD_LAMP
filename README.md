@@ -60,7 +60,7 @@ Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu
 <h1 style="color: #4CAF50;"> Simulácie: </h1>
 
 <h2> Sim brght_speed_tb.vhdl </h2>
-Simulujeme zmeny speed pre definované konštanty a zmenu jasu  pre definované konštanty s 8-bitovými countrami, ovladane clockom a resetom. 
+Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prechodu farieb pre definované konštanty 
 <img width="1636" height="443" alt="simulacia_brght_speed" src="images/simulacia_brght_speed.png" />
   
 <br>
