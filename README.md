@@ -73,8 +73,8 @@ TOP:
 
 Sim brght_speed_tb.vhdl
 <br>
-Simulujeme  zmeny speed pre definované konštanty a zmenu jasu  pre definované konštanty s 8-bitovými countrami, ovladane clockom a resetom. 
-<img width="1636" height="443" alt="simulacia_brght_speed" src="https://github.com/user-attachments/assets/2d679251-3959-4675-8793-9735bba40000" />
+Simulujeme zmeny speed pre definované konštanty a zmenu jasu  pre definované konštanty s 8-bitovými countrami, ovladane clockom a resetom. 
+<img width="1636" height="443" alt="simulacia_brght_speed" src="images/simulacia_brght_speed.png" />
 
 brght_speed.vhdl slúži k nastaveniu jasu pomocou tlačítok up a down, a nastaveniu rýchlosti prechodu farieb tlačidlami left a right, debounce slúži k odladeniu šumov pri stláčaní tlačidiel  
 <br>
