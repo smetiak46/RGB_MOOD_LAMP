@@ -24,11 +24,14 @@ TOP:
   led_g - rozsvieti zelenú ledku
   ôeg_b - rozsvieti modrú ledku
   
-<h1 style="color: #4CAF50;"> Modul debounce: </h1>
+<h1 style="color: #4CAF50;"> Popis I/O portov </h1>
 
-  Vstupy: <br>
-  btn_in - prijíma signál vyslaný z tlačidla dosky na spracovanie v bloku debounce
-
+  |Signál|I/O|Popis|
+  |btnu|vstup|zvýšenie hodnoty jasu LED-ky|
+  |btnd|vstup|zníženie hodnoty jasu LED-ky|
+  |btnr|vstup|zvýšenie hodnoty rýchlosti prechodu farieb|
+  |btnl|vstup|zníženie hodnoty rýchlosti prechodu farieb|
+  
   Výstupy: <br>
   btn_press - vysiela odfiltrované signály od hazardov <br>
 
