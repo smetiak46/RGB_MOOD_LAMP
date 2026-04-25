@@ -9,21 +9,6 @@ Samuel - brght_speed.vhdl,brght_speed_tb.vhdl, vypis do gitu
 Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu 
 3. týždeň: <br>
 
-TOP:
-<img width="1120" height="561" alt="Schema_finale" src="images/TOP_SCHEMA_RGB_LAMP.png"/>
-
-<h1 style="color: #4CAF50;"> Modul Top: </h1>
-
-  <span style="color: red;"><h2> Vstupy: </h2></span>
-  btnu, btnd, btnr, btnl - signál budený tlačidlami na doske NEXYS A7-50T, ktoré slúžia k nastaveniu hodnoty jasu a rýchlosti prechodu RGB farieb <br>
-  clk - hlavný hodinový signál <br>
-  rst - signál, ktorý uvedie počítadla do pôvodného stavu <br>
-
-  Výstupy: <br>
-  led_r - rozsvieti červenú ledku
-  led_g - rozsvieti zelenú ledku
-  ôeg_b - rozsvieti modrú ledku
-  
 <h1 style="color: #4CAF50;"> Popis I/O portov </h1>
 
   <head>
@@ -76,23 +61,24 @@ tr:nth-child(even) {
     <td>zníženie rýchlosti prechodu farieb</td>
   </tr>
   <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
+    <td>LED16_r</td>
+    <td>výstup</td>
+    <td>rozsvieti LED-ku na červeno</td>
   </tr>
   <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
+    <td>LED16_g</td>
+    <td>výstup</td>
+    <td>rozsvieti LED-ku na zeleno</td>
+  </tr>
+  <tr>
+   <td>LED16_b</td>
+   <td>výstup</td>
+   <td>rozsvieti LED-ku na modro</td>
   </tr>
 </table>
 
 </body>
-  |Signál|I/O|Popis|
-  |btnu|vstup|zvýšenie hodnoty jasu LED-ky|
-  |btnd|vstup|zníženie hodnoty jasu LED-ky|
-  |btnr|vstup|zvýšenie hodnoty rýchlosti prechodu farieb|
-  |btnl|vstup|zníženie hodnoty rýchlosti prechodu farieb|
+
   
   Výstupy: <br>
   btn_press - vysiela odfiltrované signály od hazardov <br>
