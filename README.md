@@ -62,7 +62,7 @@ Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu
 <h2> Sim brght_speed_tb.vhdl </h2>
 Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prechodu farieb pre definované konštanty 
 <img width="1636" height="443" alt="simulacia_brght_speed" src="images/simulacia_brght_speed.png" />
-<b>0</b> => 0% => ledka nesvieti
+<b>0</b> => 0% => ledka nesvieti <br>
 <b>26</b> => ledka svieti na 10% zo svojho maximálneho jasu, prechod farieb je 10% rýchlosti z maxima <br>
 <b>64</b> => ledka svieti na 25% zo svojho maximálneho jasu, prechod farieb je 25% rýchlosti z maxima <br>
 <b>102</b> => ledka svieti na 40% zo svojho maximálneho jasu, prechod farieb je 40% rýchlosti z maxima <br>
