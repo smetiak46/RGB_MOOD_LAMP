@@ -61,19 +61,19 @@ tr:nth-child(even) {
     <td>zvýšenie hodnoty jasu LED-ky</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>btnd</td>
+    <td>vstup</td>
+    <td>zníženie hodnoty jasu LED-ky</td>
   </tr>
   <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
+    <td>btnr</td>
+    <td>vstup</td>
+    <td>zvýšenie hodnoty rýchlosti prechodu farieb</td>
   </tr>
   <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
+    <td>btnl</td>
+    <td>vstup</td>
+    <td>zníženie rýchlosti prechodu farieb</td>
   </tr>
   <tr>
     <td>Laughing Bacchus Winecellars</td>
