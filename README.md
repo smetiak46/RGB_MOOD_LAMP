@@ -70,7 +70,8 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
 <b>191</b> => ledka svieti na 75% zo svojho maximálneho jasu, prechod farieb je 75% rýchlosti z maxima <br>
 <b>230</b> => ledka svieti na 90% zo svojho maximálneho jasu, prechod farieb je 90% rýchlosti z maxima <br>
 <b>255</b> => ledka svieti na maximálnou intenzitou, prechod farieb je najrýchlejší možný <br>
-RGB_fade.vhdl slúži k vytvoreniu postupného prechodu farieb RGB<br>
 
+<h2> Sim tb_RGB_fade </h2>
+RGB_fade.vhdl slúži k vytvoreniu postupného prechodu farieb RGB<br>
 <img width="1047" height="401" alt="tb_fade" src="images/tb_fade.png"/>
 
