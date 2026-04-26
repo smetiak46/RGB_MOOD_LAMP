@@ -75,6 +75,59 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 </table>
 </body>
 
+<h1> Popis I/O portov modulu debounce </h1>
+
+</head>
+<body>
+<table>
+  <tr>
+    <th>Signál</th>
+    <th>I/O</th>
+    <th>Popis</th>
+  </tr>
+  <tr>
+    <td>btn_in_u</td>
+    <td>in</td>
+    <td>prijíma vstupný signál z tlačidla btnu</td>
+  </tr>
+  <tr>
+    <td>btn_in_d</td>
+    <td>in</td>
+    <td>prijíma vstupný signál z tlačidla btnd</td>
+  </tr>
+  <tr>
+    <td>btn_in_r</td>
+    <td>in</td>
+    <td>prijíma vstupný signál z tlačidla btnr</td>
+  </tr>
+  <tr>
+    <td>btn_in_l</td>
+    <td>in</td>
+    <td>prijíma vstupný signál z tlačidla btnl</td>
+  </tr>
+  <tr>
+    <td>btn_press_u</td>
+    <td>out</td>
+    <td>vysiela odfiltrovaný signál od hazardov pre zvýšenie jasu</td>
+  </tr>
+  <tr>
+    <td>btn_press_d</td>
+    <td>out</td>
+    <td>vysiela odfiltrovaný signál od hazardov pre zníženie jasu</td>
+  </tr>
+  <tr>
+    <td>btn_press_r</td>
+    <td>out</td>
+    <td>vysiela odfiltrovaný signál od hazardov pre zvýšenie rýchlosti prechodu farieb</td>
+  </tr>
+  <tr>
+    <td>btn_press_l</td>
+    <td>out</td>
+    <td>vysiela odfiltrovaný signál od hazardov pre zníženie rýchlosti prechodu farieb</td>
+  </tr>
+</table>
+</body>
+
 <h1> Popis I/O portov modulu brght_speed </h1>
 
 </head>
