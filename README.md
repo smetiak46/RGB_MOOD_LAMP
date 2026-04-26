@@ -90,9 +90,9 @@ odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_
 <h2> Sim tb_RGB_fade.vhd </h2>
 Simuluje vytvorenie prechodu farieb RGB pre konkrétne nastavenú hodnotu jasu a rýchlosti prechodu farieb
 <img width="1047" height="401" alt="tb_fade" src="images/tb_RGB_fade_sim.png"/>
-odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_RGB_fade.vhd">brhgt_speed_tb.vhd</a>
+odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_RGB_fade.vhd">tb_RGB_fade.vhd</a>
 
 <h2> Sim tb_PWM.vhd </h2>
 Simuluje postupné rozsvecovanie červenej, zelenej a modrej LED-ky RGB LED diódy
 
-odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a>
+odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_PWM.vhd">tb_PWM.vhd</a>
