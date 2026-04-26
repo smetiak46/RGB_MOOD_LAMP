@@ -12,7 +12,7 @@ Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu
 <br>
 
 <h1> Blokové schéma </h1>
-<img width="1636" height="443" alt="simulacia_brght_speed" src="images/simulacia_brght_speed.png" />
+<img width="1636" height="443" alt="simulacia_brght_speed" src="images/TOP_SCHEMA_RGB_LAMP.png" />
 
 <h1 style="color: #4CAF50;"> Popis I/O portov modulu TOP </h1>
 
