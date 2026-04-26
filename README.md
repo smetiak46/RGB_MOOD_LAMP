@@ -73,7 +73,7 @@ Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu
  
 <h1 style="color: #4CAF50;"> Simulácie: </h1>
 
-<h2> Sim brght_speed_tb.vhdl </h2>
+<h2> Sim brght_speed_tb.vhd </h2>
 Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prechodu farieb pre definované konštanty po stlační tlačidla
 <img width="1636" height="443" alt="simulacia_brght_speed" src="images/simulacia_brght_speed.png" />
 <b>0</b> => 0% => ledka nesvieti <br>
@@ -86,6 +86,13 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
 <b>255</b> => ledka svieti maximálnou intenzitou, prechod farieb je najrýchlejší možný <br>
 <br>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a>
-<h2> Sim tb_RGB_fade </h2>
-<img width="1047" height="401" alt="tb_fade" src="images/tb_fade.png"/>
 
+<h2> Sim tb_RGB_fade.vhd </h2>
+Simuluje vytvorenie prechodu farieb RGB pre konkrétne nastavenú hodnotu jasu a rýchlosti prechodu farieb
+<img width="1047" height="401" alt="tb_fade" src="images/tb_RGB_fade_sim.png"/>
+odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a>
+
+<h2> Sim tb_PWM.vhd </h2>
+Simuluje postupné rozsvecovanie červenej, zelenej a modrej LED-ky RGB LED diódy
+
+odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a>
