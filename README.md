@@ -7,7 +7,11 @@ RGB lampa s plynulým prechodom medzi RGB farbami s možnosťou zmeny rýchlosti
 Samuel - brght_speed.vhdl,brght_speed_tb.vhdl, vypis do gitu 
 <br>
 Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu 
-3. týždeň: <br>
+<br>
+3. týždeň: 
+<br>
+
+
 
 <h1 style="color: #4CAF50;"> Popis I/O portov modulu TOP </h1>
 
@@ -70,7 +74,7 @@ Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu
 <h1 style="color: #4CAF50;"> Simulácie: </h1>
 
 <h2> Sim brght_speed_tb.vhdl </h2>
-Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prechodu farieb pre definované konštanty 
+Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prechodu farieb pre definované konštanty po stlační tlačidla
 <img width="1636" height="443" alt="simulacia_brght_speed" src="images/simulacia_brght_speed.png" />
 <b>0</b> => 0% => ledka nesvieti <br>
 <b>26</b> => ledka svieti na 10% zo svojho maximálneho jasu, prechod farieb je 10% rýchlosti z maxima <br>
