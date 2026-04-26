@@ -29,47 +29,47 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
   </tr>
   <tr>
     <td>clk</td>
-    <td>vstup</td>
+    <td>in</td>
     <td>systémové hodiny</td>
   </tr>
   <tr>
     <td>rst</td>
-    <td>vstup</td>
+    <td>in</td>
     <td>reset</td>
   </tr>
   <tr>
     <td>btnu</td>
-    <td>vstup</td>
+    <td>in</td>
     <td>zvýšenie hodnoty jasu LED-ky</td>
   </tr>
   <tr>
     <td>btnd</td>
-    <td>vstup</td>
+    <td>in</td>
     <td>zníženie hodnoty jasu LED-ky</td>
   </tr>
   <tr>
     <td>btnr</td>
-    <td>vstup</td>
+    <td>in</td>
     <td>zvýšenie hodnoty rýchlosti prechodu farieb</td>
   </tr>
   <tr>
     <td>btnl</td>
-    <td>vstup</td>
+    <td>in</td>
     <td>zníženie rýchlosti prechodu farieb</td>
   </tr>
   <tr>
     <td>LED16_r</td>
-    <td>výstup</td>
+    <td>out</td>
     <td>rozsvieti LED-ku na červeno</td>
   </tr>
   <tr>
     <td>LED16_g</td>
-    <td>výstup</td>
+    <td>out</td>
     <td>rozsvieti LED-ku na zeleno</td>
   </tr>
   <tr>
     <td>LED16_b</td>
-    <td>výstup</td>
+    <td>out</td>
     <td>rozsvieti LED-ku na modro</td>
   </tr>
 </table>
