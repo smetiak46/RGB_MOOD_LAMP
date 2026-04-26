@@ -1,8 +1,8 @@
 # RGB_MOOD_LAMP
 
-rgb lampa s plynulým prechodom medzi RGB farbami s možnosťou zmeny rýchlosti a intenzity jasu RGB led diódy pomocou tlačidiel dosky NEXYS A7-50T
+RGB lampa s plynulým prechodom medzi RGB farbami s možnosťou zmeny rýchlosti a intenzity jasu RGB led diódy pomocou tlačidiel dosky NEXYS A7-50T
 
-Aktivita:
+<h3> Aktivita </h3>
 2. týždeň: <br>
 Samuel - brght_speed.vhdl,brght_speed_tb.vhdl, vypis do gitu 
 <br>
