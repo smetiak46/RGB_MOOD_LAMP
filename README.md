@@ -3,12 +3,12 @@
 RGB lampa s plynulým prechodom medzi RGB farbami s možnosťou zmeny rýchlosti a intenzity jasu RGB led diódy pomocou tlačidiel dosky NEXYS A7-50T
 
 <h3> Aktivita </h3>
-2. týždeň: <br>
+<h4> 2. týždeň </h4> 
 Samuel - brght_speed.vhd, brght_speed_tb.vhd, výpis do gitu
 <br>
 Jakub - RGB_fade.vhd, TOP_SCHEMA_RGB_LAMP.png, výpis do gitu
 <br>
-3. týždeň: 
+<h4> 3. týždeň </h4>
 <br>
 Samuel - TOP_RGB_LAMPA.vhd, tb_PWM.vhd, výpis do gitu 
 <br>
