@@ -70,9 +70,9 @@ begin
         wait for 2ms;
         red <= x"60";
         wait for 2ms;
-        green <= x"80";
+        green <= x"60";
         wait for 2ms; 
-        blue <= x"FF";
+        blue <= x"60";
         wait for 2ms;
         -- ***EDIT*** Add stimuli here
         wait for 100 * TbPeriod;
