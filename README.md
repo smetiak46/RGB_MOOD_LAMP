@@ -6,7 +6,7 @@ RGB lampa s plynulým prechodom medzi RGB farbami s možnosťou zmeny rýchlosti
 <h4> 2. týždeň </h4> 
 Samuel - brght_speed.vhd, brght_speed_tb.vhd, výpis do gitu
 <br>
-Jakub - RGB_fade.vhd, TOP_SCHEMA_RGB_LAMP.png, výpis do gitu
+Jakub - RGB_fade.vhd, TOP_SCHEMA_RGB_LAMPA.png, výpis do gitu
 <br>
 <h4> 3. týždeň </h4>
 Samuel - TOP_RGB_LAMPA.vhd, tb_PWM.vhd, výpis do gitu 
