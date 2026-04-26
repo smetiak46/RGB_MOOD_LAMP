@@ -20,6 +20,16 @@ Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu
     <th>Popis</th>
   </tr>
   <tr>
+    <td>clk</td>
+    <td>vstup</td>
+    <td>systémové hodiny</td>
+  </tr>
+  <tr>
+    <td>rst</td>
+    <td>vstup</td>
+    <td>reset</td>
+  </tr>
+  <tr>
     <td>btnu</td>
     <td>vstup</td>
     <td>zvýšenie hodnoty jasu LED-ky</td>
@@ -50,9 +60,9 @@ Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu
     <td>rozsvieti LED-ku na zeleno</td>
   </tr>
   <tr>
-   <td>LED16_b</td>
-   <td>výstup</td>
-   <td>rozsvieti LED-ku na modro</td>
+    <td>LED16_b</td>
+    <td>výstup</td>
+    <td>rozsvieti LED-ku na modro</td>
   </tr>
 </table>
 </body>
@@ -69,7 +79,7 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
 <b>128</b> => ledka svieti na 50% zo svojho maximálneho jasu, prechod farieb je 50% rýchlosti z maxima <br>
 <b>191</b> => ledka svieti na 75% zo svojho maximálneho jasu, prechod farieb je 75% rýchlosti z maxima <br>
 <b>230</b> => ledka svieti na 90% zo svojho maximálneho jasu, prechod farieb je 90% rýchlosti z maxima <br>
-<b>255</b> => ledka svieti na maximálnou intenzitou, prechod farieb je najrýchlejší možný <br>
+<b>255</b> => ledka svieti maximálnou intenzitou, prechod farieb je najrýchlejší možný <br>
 
 <h2> Sim tb_RGB_fade </h2>
 <img width="1047" height="401" alt="tb_fade" src="images/tb_fade.png"/>
