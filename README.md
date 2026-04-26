@@ -9,7 +9,6 @@ Samuel - brght_speed.vhd, brght_speed_tb.vhd, výpis do gitu
 Jakub - RGB_fade.vhd, TOP_SCHEMA_RGB_LAMP.png, výpis do gitu
 <br>
 <h4> 3. týždeň </h4>
-<br>
 Samuel - TOP_RGB_LAMPA.vhd, tb_PWM.vhd, výpis do gitu 
 <br>
 Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
