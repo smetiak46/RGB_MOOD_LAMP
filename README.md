@@ -4,11 +4,15 @@ RGB lampa s plynulým prechodom medzi RGB farbami s možnosťou zmeny rýchlosti
 
 <h3> Aktivita </h3>
 2. týždeň: <br>
-Samuel - brght_speed.vhdl,brght_speed_tb.vhdl, vypis do gitu 
+Samuel - brght_speed.vhd, brght_speed_tb.vhd, výpis do gitu
 <br>
-Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu 
+Jakub - RGB_fade.vhd, TOP_SCHEMA_RGB_LAMP.png, výpis do gitu
 <br>
 3. týždeň: 
+<br>
+Samuel - TOP_RGB_LAMPA.vhd, tb_PWM.vhd, výpis do gitu 
+<br>
+Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 <br>
 
 <h1> Blokové schéma </h1>
