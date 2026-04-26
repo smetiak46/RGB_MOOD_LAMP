@@ -17,7 +17,7 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 <h1> Blokové schéma </h1>
 <img width="1636" height="443" alt="simulacia_brght_speed" src="images/TOP_SCHEMA_RGB_LAMP.png" />
 
-<h1 style="color: #4CAF50;"> Popis I/O portov modulu TOP </h1>
+<h1> Popis I/O portov modulu TOP </h1>
 
 </head>
 <body>
@@ -40,22 +40,22 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
   <tr>
     <td>btnu</td>
     <td>in</td>
-    <td>zvýšenie hodnoty jasu LED-ky</td>
+    <td>singál na zvýšenie hodnoty jasu LED-ky</td>
   </tr>
   <tr>
     <td>btnd</td>
     <td>in</td>
-    <td>zníženie hodnoty jasu LED-ky</td>
+    <td>singál na zníženie hodnoty jasu LED-ky</td>
   </tr>
   <tr>
     <td>btnr</td>
     <td>in</td>
-    <td>zvýšenie hodnoty rýchlosti prechodu farieb</td>
+    <td>singál na zvýšenie hodnoty rýchlosti prechodu farieb</td>
   </tr>
   <tr>
     <td>btnl</td>
     <td>in</td>
-    <td>zníženie rýchlosti prechodu farieb</td>
+    <td>singál na zníženie rýchlosti prechodu farieb</td>
   </tr>
   <tr>
     <td>LED16_r</td>
@@ -74,8 +74,51 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
   </tr>
 </table>
 </body>
+
+<h1> Popis I/O portov modulu brght_speed </h1>
+
+</head>
+<body>
+<table>
+  <tr>
+    <th>Signál</th>
+    <th>I/O</th>
+    <th>Popis</th>
+  </tr>
+  <tr>
+    <td>btnu</td>
+    <td>in</td>
+    <td>zvýšenie hodnoty jasu LED-ky</td>
+  </tr>
+  <tr>
+    <td>btnd</td>
+    <td>in</td>
+    <td>zníženie hodnoty jasu LED-ky</td>
+  </tr>
+  <tr>
+    <td>btnr</td>
+    <td>in</td>
+    <td>zvýšenie hodnoty rýchlosti prechodu farieb</td>
+  </tr>
+  <tr>
+    <td>btnl</td>
+    <td>in</td>
+    <td>zníženie rýchlosti prechodu farieb</td>
+  </tr>
+  <tr>
+    <td>brght(7:0)</td>
+    <td>out</td>
+    <td>obsahuje presne zadanú hodnotu jasu ako 8-bitové číslo/td>
+  </tr>
+  <tr>
+    <td>speed(7:0)</td>
+    <td>out</td>
+    <td>obsahuje presne zadanú hodnotu rýchlosti prechodu farieb ako 8-bitové číslo</td>
+  </tr>
+</table>
+</body>
  
-<h1 style="color: #4CAF50;"> Simulácie: </h1>
+<h1> Simulácie: </h1>
 
 <h2> Sim brght_speed_tb.vhd </h2>
 Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prechodu farieb pre definované konštanty po stlační tlačidla
