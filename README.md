@@ -9,7 +9,7 @@ Samuel - brght_speed.vhdl,brght_speed_tb.vhdl, vypis do gitu
 Jakub - RGB_fade.vhd, Schema_finale.png, vypis do gitu 
 3. týždeň: <br>
 
-<h1 style="color: #4CAF50;"> Popis I/O portov </h1>
+<h1 style="color: #4CAF50;"> Popis I/O portov modulu TOP </h1>
 
 </head>
 <body>
