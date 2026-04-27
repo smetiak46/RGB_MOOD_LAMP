@@ -142,7 +142,8 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
     <th> 255 </th>
     <th> ledka svieti maximálnou intenzitou, prechod farieb je najrýchlejší možný  </th>
   </tr>
-
+</body>
+</table>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a>
 
 <h2> Sim tb_RGB_fade.vhd </h2>
