@@ -113,7 +113,7 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
 <body>
   <tr>
     <th> 0 </th>
-    <th> 0% => ledka nesvieti </th>
+    <th> ledka nesvieti, najpomalší prechod farieb </th>
   </tr>
   <tr>
     <th> 26 </th>
