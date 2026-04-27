@@ -18,6 +18,8 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 <img width="1636" height="443" alt="simulacia_brght_speed" src="images/TOP_SCHEMA_RGB_LAMPA.png" />
 
 <h1> Použité moduly </h1>
+
+<head>
 <body>
 <table>
   <tr>
@@ -37,6 +39,7 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
     <th> Vytvára prechod RGB farieb o zadanej intenzite jasu a rýchlosti prechodu farieb </th>
   </tr>
   <tr>
+    <th> PWM </th>
     <th> Vysiela signál na rozsvietenie červenej, zelenej alebo modrej LED-ky RGB LED-ky</th>
   </tr>
   <tr>
