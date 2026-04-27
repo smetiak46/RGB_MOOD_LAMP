@@ -108,15 +108,41 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 <h2> Sim brght_speed_tb.vhd </h2>
 Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prechodu farieb pre definované konštanty po stlační tlačidla
 <img width="1636" height="443" alt="simulacia_brght_speed" src="images/simulacia_brght_speed.png" />
-<b>0</b> => 0% => ledka nesvieti <br>
-<b>26</b> => ledka svieti na 10% zo svojho maximálneho jasu, prechod farieb je 10% rýchlosti z maxima <br>
-<b>64</b> => ledka svieti na 25% zo svojho maximálneho jasu, prechod farieb je 25% rýchlosti z maxima <br>
-<b>102</b> => ledka svieti na 40% zo svojho maximálneho jasu, prechod farieb je 40% rýchlosti z maxima <br>
-<b>128</b> => ledka svieti na 50% zo svojho maximálneho jasu, prechod farieb je 50% rýchlosti z maxima <br>
-<b>191</b> => ledka svieti na 75% zo svojho maximálneho jasu, prechod farieb je 75% rýchlosti z maxima <br>
-<b>230</b> => ledka svieti na 90% zo svojho maximálneho jasu, prechod farieb je 90% rýchlosti z maxima <br>
-<b>255</b> => ledka svieti maximálnou intenzitou, prechod farieb je najrýchlejší možný <br>
-<br>
+
+<table>
+<body>
+  <tr>
+    <th> <b>0</b> </th>
+    <th></th>0% => ledka nesvieti 
+  </tr>
+  <tr>
+    <th> <b>26</b> </th>
+    <th> ledka svieti na 10% zo svojho maximálneho jasu, prechod farieb je 10% rýchlosti z maxima </th>
+  <tr>
+    <th> <b>64</b> </th>
+    <th> ledka svieti na 25% zo svojho maximálneho jasu, prechod farieb je 25% rýchlosti z maxima </th>
+  </tr>
+  <tr>
+    <th> <b>102</b> </th>
+    <th> ledka svieti na 40% zo svojho maximálneho jasu, prechod farieb je 40% rýchlosti z maxima <br> </th>
+  </tr>
+  <tr>
+    <th> <b>128</b> </th>
+    <th> ledka svieti na 50% zo svojho maximálneho jasu, prechod farieb je 50% rýchlosti z maxima </th>
+  </tr>
+  <tr>
+    <th> <b>191</b> </th>
+    <th> ledka svieti na 75% zo svojho maximálneho jasu, prechod farieb je 75% rýchlosti z maxima </th>
+  </tr>
+  <tr>
+    <th> <b>230</b> </th>
+    <th> ledka svieti na 90% zo svojho maximálneho jasu, prechod farieb je 90% rýchlosti z maxima </th>
+  </tr>
+  <tr>
+    <th> <b>255</b> </th>
+    <th> ledka svieti maximálnou intenzitou, prechod farieb je najrýchlejší možný  </th>
+  </tr>
+
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a>
 
 <h2> Sim tb_RGB_fade.vhd </h2>
