@@ -17,6 +17,34 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 <h1> Blokové schéma </h1>
 <img width="1636" height="443" alt="simulacia_brght_speed" src="images/TOP_SCHEMA_RGB_LAMPA.png" />
 
+<h1> Použité moduly </h1>
+<body>
+<table>
+  <tr>
+    <th> Modul </th>
+    <th> Popis modulu </th>
+  </tr>
+  <tr>
+    <th> Debounce </th>
+    <th> Vyčistí signál tlačidiel btnu, btnd, btnr a btnl od hazardov, generuje čistý signál </th>
+  </tr>
+  <tr>
+    <th> brght.speed </th>
+    <th> Umožnuje nastaviť intenzitu jasu a rýchlosti prechodu farieb z poľa konštánt </th>
+  </tr>
+  <tr>
+    <th> RGB_fade </th>
+    <th> Vytvára prechod RGB farieb o zadanej intenzite jasu a rýchlosti prechodu farieb </th>
+  </tr>
+  <tr>
+    <th> Vysiela signál na rozsvietenie červenej, zelenej alebo modrej LED-ky RGB LED-ky</th>
+  </tr>
+  <tr>
+    
+  </tr>
+</table>  
+</body>
+
 <h1> Popis I/O portov modulu TOP </h1>
 
 </head>
