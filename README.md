@@ -23,54 +23,24 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 <body>
 <table>
   <tr>
-    <th>Signál</th>
-    <th>I/O</th>
-    <th>Popis</th>
+    <th>Modul</th>
+    <th>Popis modulu</th>
   </tr>
   <tr>
-    <td>clk</td>
-    <td>in</td>
-    <td>systémové hodiny</td>
+    <td>Debounce</td>
+    <td>Vyčistí signál z tlačiidiel btnu, btnd, btnr a btnl od hazardov</td>
   </tr>
   <tr>
-    <td>rst</td>
-    <td>in</td>
-    <td>reset</td>
+    <td>brght_speed</td>
+    <td>Umožnuje nastavenie intenzity jasu RGB LED-ky a rýchlosti prechodu farieb na RGB LED-ke</td>
   </tr>
   <tr>
-    <td>btnu</td>
-    <td>in</td>
-    <td>singál na zvýšenie hodnoty jasu LED-ky</td>
+    <td>RGB_fade</td>
+    <td>Vytvára prechod farieb RGB o nastavenej hodnote jasu a rýchlosti prechodu</td>
   </tr>
   <tr>
-    <td>btnd</td>
-    <td>in</td>
-    <td>singál na zníženie hodnoty jasu LED-ky</td>
-  </tr>
-  <tr>
-    <td>btnr</td>
-    <td>in</td>
-    <td>singál na zvýšenie hodnoty rýchlosti prechodu farieb</td>
-  </tr>
-  <tr>
-    <td>btnl</td>
-    <td>in</td>
-    <td>singál na zníženie rýchlosti prechodu farieb</td>
-  </tr>
-  <tr>
-    <td>LED16_r</td>
-    <td>out</td>
-    <td>rozsvieti LED-ku na červeno</td>
-  </tr>
-  <tr>
-    <td>LED16_g</td>
-    <td>out</td>
-    <td>rozsvieti LED-ku na zeleno</td>
-  </tr>
-  <tr>
-    <td>LED16_b</td>
-    <td>out</td>
-    <td>rozsvieti LED-ku na modro</td>
+    <td>PWM</td>
+    <td>Vysiela signál na rozsvietenie červenej, zelenej alebo modrej LED diódy RGB diódy</td>
   </tr>
 </table>
 </body>
