@@ -19,14 +19,13 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 
 <h1> Použité moduly </h1>
 
-<head>
+</head>
 <body>
 <table>
   <tr>
     <th> Modul </th>
     <th> Popis modulu </th>
   </tr>
-</head>  
   <tr>
     <th> Debounce </th>
     <th> Vyčistí signál tlačidiel btnu, btnd, btnr a btnl od hazardov, generuje čistý signál </th>
