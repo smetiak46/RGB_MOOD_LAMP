@@ -111,48 +111,57 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
 
 <table border="1">
   <tr>
-    <th>-</th>
     <th>brght</th>
+    <th>brght</th>
+    <th>speed</th>
     <th>speed</th>
   </tr>
   <tr>
     <th>0</th>
     <td>ledka nesvieti</td>
+    <th>0</th>
     <td> narýchlejší prechod farieb</td>
   </tr>
   <tr>
     <th>26</th>
     <td>ledka svieti na 10% zo svojho maximálneho jasu</td>
+    <th>26</th>
     <td>prechod farieb je 90% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>64</th>
     <td>ledka svieti na 25% zo svojho maximálneho jasu</td>
+    <th>64</th>
     <td>prechod farieb je 25% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>102</th>
     <td>ledka svieti na 40% zo svojho maximálneho jasu</td>
+    <th>102</th>
     <td>prechod farieb je 40% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>128</th>
     <td>ledka svieti na 50% zo svojho maximálneho jasu</td>
+    <th>128</th>
     <td>prechod farieb je 50% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>191</th>
     <td>ledka svieti na 75% zo svojho maximálneho jasu</td>
+    <th>191</th>
     <td>prechod farieb je 75% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>230</th>
     <td>ledka svieti na 90% zo svojho maximálneho jasu</td>
+    <th>230</th>
     <td>prechod farieb je 90% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>255</th>
     <td>ledka svieti maximálnou intenzitou</td>
+    <th>255</th>
     <td>prechod farieb je najrýchlejší možný</td>
   </tr>
 </table>
