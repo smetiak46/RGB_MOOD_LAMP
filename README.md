@@ -122,31 +122,38 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
   </tr>
   <tr>
     <th>26</th>
-    <td>ledka svieti na 10% zo svojho maximálneho jasu,prechod farieb je 90% rýchlosti z maxima</td>
+    <td>ledka svieti na 10% zo svojho maximálneho jasu</td>
+    <td>prechod farieb je 90% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>64</th>
-    <td>ledka svieti na 25% zo svojho maximálneho jasu, prechod farieb je 25% rýchlosti z maxima</td>
+    <td>ledka svieti na 25% zo svojho maximálneho jasu</td>
+    <td>prechod farieb je 25% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>102</th>
-    <td>ledka svieti na 40% zo svojho maximálneho jasu, prechod farieb je 40% rýchlosti z maxima</td>
+    <td>ledka svieti na 40% zo svojho maximálneho jasu</td>
+    <td>prechod farieb je 40% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>128</th>
-    <td>ledka svieti na 50% zo svojho maximálneho jasu, prechod farieb je 50% rýchlosti z maxima</td>
+    <td>ledka svieti na 50% zo svojho maximálneho jasu</td>
+    <td>prechod farieb je 50% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>191</th>
-    <td>ledka svieti na 75% zo svojho maximálneho jasu, prechod farieb je 75% rýchlosti z maxima</td>
+    <td>ledka svieti na 75% zo svojho maximálneho jasu</td>
+    <td>prechod farieb je 75% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>230</th>
-    <td>ledka svieti na 90% zo svojho maximálneho jasu, prechod farieb je 90% rýchlosti z maxima</td>
+    <td>ledka svieti na 90% zo svojho maximálneho jasu</td>
+    <td>prechod farieb je 90% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>255</th>
-    <td>ledka svieti maximálnou intenzitou, prechod farieb je najrýchlejší možný</td>
+    <td>ledka svieti maximálnou intenzitou</td>
+    <td>prechod farieb je najrýchlejší možný</td>
   </tr>
 </table>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a>
