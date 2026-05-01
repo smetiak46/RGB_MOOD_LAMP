@@ -111,8 +111,12 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
 
 <table border="1">
   <tr>
+    <th>-</th>
+    <th>brght</th>
+    <th>speed</th>
+  </tr>
+  <tr>
     <th>0</th>
-    <th>2</th>
     <td>ledka nesvieti, narýchlejší prechod farieb</td>
   </tr>
   <tr>
