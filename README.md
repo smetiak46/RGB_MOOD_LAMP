@@ -126,7 +126,7 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
     <th>26</th>
     <td>ledka svieti na 10% zo svojho maximálneho jasu</td>
     <th>230</th>
-    <td>prechod farieb je 90% rýchlosti z maxima</td>
+    <td>prechod farieb je 10% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>64</th>
