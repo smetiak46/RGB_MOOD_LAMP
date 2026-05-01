@@ -61,7 +61,7 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
     <td>systémové hodiny</td>
   </tr>
   <tr>
-    <td>rst</td>
+    <td>btnc</td>
     <td>in</td>
     <td>reset</td>
   </tr>
@@ -119,49 +119,49 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
   <tr>
     <th>0</th>
     <td>ledka nesvieti</td>
-    <th>0</th>
+    <th>255</th>
     <td> narýchlejší prechod farieb</td>
   </tr>
   <tr>
     <th>26</th>
     <td>ledka svieti na 10% zo svojho maximálneho jasu</td>
-    <th>26</th>
+    <th>230</th>
     <td>prechod farieb je 90% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>64</th>
     <td>ledka svieti na 25% zo svojho maximálneho jasu</td>
-    <th>64</th>
+    <th>191</th>
     <td>prechod farieb je 25% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>102</th>
     <td>ledka svieti na 40% zo svojho maximálneho jasu</td>
-    <th>102</th>
+    <th>128</th>
     <td>prechod farieb je 40% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>128</th>
     <td>ledka svieti na 50% zo svojho maximálneho jasu</td>
-    <th>128</th>
+    <th>102</th>
     <td>prechod farieb je 50% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>191</th>
     <td>ledka svieti na 75% zo svojho maximálneho jasu</td>
-    <th>191</th>
+    <th>64</th>
     <td>prechod farieb je 75% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>230</th>
     <td>ledka svieti na 90% zo svojho maximálneho jasu</td>
-    <th>230</th>
+    <th>26</th>
     <td>prechod farieb je 90% rýchlosti z maxima</td>
   </tr>
   <tr>
     <th>255</th>
     <td>ledka svieti maximálnou intenzitou</td>
-    <th>255</th>
+    <th>0</th>
     <td>prechod farieb je najrýchlejší možný</td>
   </tr>
 </table>
