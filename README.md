@@ -184,4 +184,38 @@ odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_RGB_fade.
 <h2> Sim tb_PWM.vhd </h2>
 Simuluj tvorbu šírkovo modulačných pulzov podľa nastavených hodnôt jasu 
 <img width="1047" height="401" alt="tb_PWM" src="images/sim_tb_PWM.png"/>
+<table>
+<body>
+  <tr>
+    <th> brght </th>
+    <th> strieda </th>
+  </tr>
+  <tr>
+    <td> 0 </td>
+    <td> 0% </td>
+  </tr>
+  <tr>
+    <td> 26 </td>
+    <td> 10% </td>
+  </tr>
+  <tr>
+    <td> 64 </td>
+    <td> 25% </td>
+  </tr>
+  <tr>
+    <td> 128 </td>
+    <td> 50% </td>
+  </tr>
+  <tr>
+    <td> 191 </td>
+    <td> 75% </td>
+  </tr>
+  <tr>
+    <td> 230 </td>
+    <td> 75% </td>
+  </tr>
+  <tr>
+    <td> 255 </td>
+    <td> 100% </td>
+  </tr>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_PWM.vhd">tb_PWM.vhd</a>
