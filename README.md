@@ -191,10 +191,6 @@ Simuluj tvorbu šírkovo modulačných pulzov podľa nastavených hodnôt jasu
     <th> strieda </th>
   </tr>
   <tr>
-    <td> 0 </td>
-    <td> 0% </td>
-  </tr>
-  <tr>
     <td> 26 </td>
     <td> 10% </td>
   </tr>
@@ -212,7 +208,7 @@ Simuluj tvorbu šírkovo modulačných pulzov podľa nastavených hodnôt jasu
   </tr>
   <tr>
     <td> 230 </td>
-    <td> 75% </td>
+    <td> 90% </td>
   </tr>
   <tr>
     <td> 255 </td>
