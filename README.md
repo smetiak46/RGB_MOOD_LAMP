@@ -1,6 +1,6 @@
 # RGB_MOOD_LAMP
 
-RGB lampa s plynulým prechodom medzi RGB farbami s možnosťou zmeny rýchlosti a intenzity jasu RGB led diódy pomocou tlačidiel dosky NEXYS A7-50T
+RGB lampa s prechodom medzi RGB farbami s možnosťou zmeny rýchlosti a intenzity jasu RGB led diódy pomocou tlačidiel dosky NEXYS A7-50T
 
 <h3> Aktivita </h3>
 <h4> 2. týždeň </h4> 
