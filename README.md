@@ -171,6 +171,11 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
 </table>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a>
 
+<h2> Sim tb_clk_en_fade </h2>
+Simuluje spomalenie pôvodného clock signálu FPGA-čka
+<img width="1047" height="401" alt="tb_RGB_fade" src="images/sim_tb_RGB_fade.png"/>
+odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_RGB_fade.vhd">tb_RGB_fade.vhd</a>
+
 <h2> Sim tb_RGB_fade.vhd </h2>
 Simuluje vytvorenie prechodu farieb RGB pre konkrétne nastavenú hodnotu jasu a rýchlosti prechodu farieb
 <img width="1047" height="401" alt="tb_RGB_fade" src="images/sim_tb_RGB_fade.png"/>
