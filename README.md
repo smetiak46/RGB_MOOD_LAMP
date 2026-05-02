@@ -15,7 +15,7 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 <br>
 
 <h1> Blokové schéma </h1>
-<img width="1636" height="443" alt="simulacia_brght_speed" src="images/TOP_SCHEMA_RGB_LAMPA.png" />
+<img width="1636" height="443" alt="simulacia_brght_speed" src="images/schema_top.png" />
 
 <h1> Použité moduly </h1>
 
