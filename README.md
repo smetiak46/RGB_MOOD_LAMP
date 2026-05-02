@@ -173,7 +173,7 @@ odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_
 
 <h2> Sim tb_clk_en_fade </h2>
 Simuluje spomalenie pôvodného clock signálu FPGA-čka
-<img width="1047" height="401" alt="tb_RGB_fade" src="images/sim_tb_RGB_fade.png"/>
+<img width="1047" height="401" alt="tb_clk_en_fade" src="images/sim_tb_clk_en_fade.png"/>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_RGB_fade.vhd">tb_RGB_fade.vhd</a>
 
 <h2> Sim tb_RGB_fade.vhd </h2>
