@@ -112,9 +112,9 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
 <table border="1">
   <tr>
     <th>brght</th>
-    <th>brght</th>
+    <th>popis</th>
     <th>speed</th>
-    <th>speed</th>
+    <th>popis</th>
   </tr>
   <tr>
     <th>0</th>
