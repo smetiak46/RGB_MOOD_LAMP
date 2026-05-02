@@ -28,7 +28,7 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
   </tr>
   <tr>
     <td>Debounce</td>
-    <td>Vyčistí signál z tlačiidiel btnu, btnd, btnr a btnl od hazardov</td>
+    <td>Vyčistí signál z tlačidiel btnu, btnd, btnr a btnl od hazardov</td>
   </tr>
   <tr>
     <td>brght_speed</td>
