@@ -35,6 +35,10 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
     <td>Umožnuje nastavenie intenzity jasu RGB LED-ky a rýchlosti prechodu farieb na RGB LED-ke</td>
   </tr>
   <tr>
+    <td>clk_en_fade</td>
+    <td>Spomaľuje pôvodný clock FGPA-čka na clock o rýchlosti 1kHz</td>
+  </tr> 
+  <tr>
     <td>RGB_fade</td>
     <td>Vytvára prechod farieb RGB o nastavenej hodnote jasu a rýchlosti prechodu</td>
   </tr>
