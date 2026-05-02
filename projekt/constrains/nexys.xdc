@@ -22,9 +22,9 @@ set_property -dict { PACKAGE_PIN P18 IOSTANDARD LVCMOS33 } [get_ports {btnd}];
 # -----------------------------------------------
 # RGB LEDs
 # -----------------------------------------------
-set_property -dict { PACKAGE_PIN N15 IOSTANDARD LVCMOS33 } [get_ports {led16_r}];
-set_property -dict { PACKAGE_PIN M16 IOSTANDARD LVCMOS33 } [get_ports {led16_g}];
-set_property -dict { PACKAGE_PIN R12 IOSTANDARD LVCMOS33 } [get_ports {led16_b}];
+set_property -dict { PACKAGE_PIN N15 IOSTANDARD LVCMOS33 } [get_ports {LED16_r}];
+set_property -dict { PACKAGE_PIN M16 IOSTANDARD LVCMOS33 } [get_ports {LED16_g}];
+set_property -dict { PACKAGE_PIN R12 IOSTANDARD LVCMOS33 } [get_ports {LED16_b}];
 
 # -----------------------------------------------
 # (Remaining peripherals preserved but omitted here for brevity)
