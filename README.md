@@ -173,6 +173,6 @@ Simuluje vytvorenie prechodu farieb RGB pre konkrétne nastavenú hodnotu jasu a
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_RGB_fade.vhd">tb_RGB_fade.vhd</a>
 
 <h2> Sim tb_PWM.vhd </h2>
-Simuluje postupné rozsvecovanie červenej, zelenej a modrej LED-ky RGB LED diódy
+Simuluj tvorbu šírkovo modulačných pulzov podľa nastavených hodnôt jasu 
 <img width="1047" height="401" alt="tb_PWM" src="images/sim_tb_PWM.png"/>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_PWM.vhd">tb_PWM.vhd</a>
