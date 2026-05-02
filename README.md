@@ -169,7 +169,7 @@ odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_
 
 <h2> Sim tb_RGB_fade.vhd </h2>
 Simuluje vytvorenie prechodu farieb RGB pre konkrétne nastavenú hodnotu jasu a rýchlosti prechodu farieb
-<img width="1047" height="401" alt="images/sim_tb_RGB_fade.png"/>
+<img width="1047" height="401" alt="tb_RGB_fade" src="images/sim_tb_RGB_fade.png"/>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_RGB_fade.vhd">tb_RGB_fade.vhd</a>
 
 <h2> Sim tb_PWM.vhd </h2>
