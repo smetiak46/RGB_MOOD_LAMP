@@ -4,53 +4,66 @@ use ieee.numeric_std.all;
 
 entity RGB_FADE is
     port (
-        clk   : in std_logic;
-        rst   : in std_logic;
-        brght : in std_logic_vector(7 downto 0);
-        speed : in std_logic_vector(7 downto 0);
-        red   : out std_logic_vector(7 downto 0);
-        green : out std_logic_vector(7 downto 0);
-        blue  : out std_logic_vector(7 downto 0)
+        clk     : in  std_logic;
+        rst     : in  std_logic;
+        fade_en : in  std_logic;  
+        brght   : in  std_logic_vector(7 downto 0);
+        speed   : in  std_logic_vector(7 downto 0);
+        red     : out std_logic_vector(7 downto 0);
+        green   : out std_logic_vector(7 downto 0);
+        blue    : out std_logic_vector(7 downto 0)
     );
 end RGB_FADE;
 
 architecture Behavioral of RGB_FADE is
 
-    signal timer : unsigned(15 downto 0) := (others => '0');
+    -- 20-bit timer pre časovanie prechodu
+    signal timer : unsigned(19 downto 0) := (others => '0');
+    -- 2-bit stav RGB (R → G → B)
     signal step  : unsigned(1 downto 0) := (others => '0');
-    signal br    : std_logic_vector(7 downto 0);
-    signal sp    : unsigned(7 downto 0);
+    -- dynamický prah rýchlosti
+    signal threshold : unsigned(19 downto 0);
 
 begin
 
-    br <= brght;
-    sp <= unsigned(speed);
+    -- SPEED → časový prah
+    threshold <= (unsigned(speed) & "000000000000") + 1;
 
+    -- RIADIACI FSM (beží len pri 1 kHz enable)
     process(clk)
     begin
         if rising_edge(clk) then
+
             if rst = '1' then
-                step  <= (others => '0');
                 timer <= (others => '0');
+                step  <= (others => '0');
 
             else
-                if timer = 0 then
-                    timer <= resize(sp(7 downto 4) + 1, timer'length);
 
-                    if step = "10" then
-                        step <= (others => '0');
+                if fade_en = '1' then
+
+                    if timer >= threshold then
+                        timer <= (others => '0');
+
+                        if step = "10" then
+                            step <= (others => '0');
+                        else
+                            step <= step + 1;
+                        end if;
+
                     else
-                        step <= step + 1;
+                        timer <= timer + 1;
                     end if;
 
-                else
-                    timer <= timer - 1;
                 end if;
+
             end if;
+
         end if;
     end process;
 
-    process(step, br)
+    -- OUTPUT LOGIKA (kombinačná)
+    process(step, brght)
     begin
         red   <= (others => '0');
         green <= (others => '0');
@@ -58,13 +71,13 @@ begin
 
         case step is
             when "00" =>
-                red <= br;
+                red <= brght;
 
             when "01" =>
-                green <= br;
+                green <= brght;
 
             when "10" =>
-                blue <= br;
+                blue <= brght;
 
             when others =>
                 null;
