@@ -13,7 +13,10 @@ Samuel - TOP_RGB_LAMPA.vhd, tb_PWM.vhd, výpis do gitu
 <br>
 Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 <br>
-
+<h4> 4. týždeň </h4>
+<br>
+debugging a uprava modulu clk_en_fade
+<br>
 <h1> Blokové schéma </h1>
 <img width="1636" height="443" alt="top_schema" src="images/top_schema_oprava.png" />
 
