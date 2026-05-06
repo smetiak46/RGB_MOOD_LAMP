@@ -21,7 +21,7 @@ architecture Behavioral of brght_speed is
     constant brightnes : brght_val := (0, 26, 64, 102, 128, 191, 230, 255);
     
     type speed_val is array (0 to 7) of integer range 0 to 255;
-    constant spd : speed_val := (0, 26, 64, 102, 128, 191, 230, 255);
+    constant spd : speed_val := (255, 230, 191, 128, 102, 64, 26, 0);
     
     signal index_brght : integer range 0 to 7 := 0;
     signal index_speed : integer range 0 to 7 := 0;
