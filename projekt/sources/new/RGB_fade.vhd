@@ -17,19 +17,28 @@ end RGB_FADE;
 
 architecture Behavioral of RGB_FADE is
 
-    -- 20-bit timer pre časovanie prechodu
+    -- timer
     signal timer : unsigned(19 downto 0) := (others => '0');
-    -- 2-bit stav RGB (R → G → B)
+
+    -- 4 stavy: R  → G → B → OFF
     signal step  : unsigned(1 downto 0) := (others => '0');
-    -- dynamický prah rýchlosti
+
+    -- threshold
     signal threshold : unsigned(19 downto 0);
+    signal speed_scaled : unsigned(19 downto 0);
+
+    -- minimálny čas jednej farby (pri 1 kHz enable)
+    constant MIN_DELAY : unsigned(19 downto 0) := to_unsigned(20, 20);  
+    -- ≈ 20 ms → vždy viditeľné
 
 begin
 
-    -- SPEED → časový prah
-    threshold <= (unsigned(speed) & "000000000000") + 1;
+    -- škálovanie rýchlosti (jemnejšie kroky)
+    speed_scaled <= resize(unsigned(speed), 20) sll 4;
 
-    -- RIADIACI FSM (beží len pri 1 kHz enable)
+    -- finálny prah
+    threshold <= MIN_DELAY + speed_scaled;
+
     process(clk)
     begin
         if rising_edge(clk) then
@@ -39,14 +48,14 @@ begin
                 step  <= (others => '0');
 
             else
-
                 if fade_en = '1' then
 
                     if timer >= threshold then
                         timer <= (others => '0');
 
-                        if step = "10" then
-                            step <= (others => '0');
+                        -- cyklus cez 4 stavy
+                        if step = "11" then
+                            step <= "00";
                         else
                             step <= step + 1;
                         end if;
@@ -56,13 +65,12 @@ begin
                     end if;
 
                 end if;
-
             end if;
 
         end if;
     end process;
 
-    -- OUTPUT LOGIKA (kombinačná)
+    -- OUTPUT LOGIKA
     process(step, brght)
     begin
         red   <= (others => '0');
@@ -70,18 +78,25 @@ begin
         blue  <= (others => '0');
 
         case step is
+
             when "00" =>
                 red <= brght;
 
             when "01" =>
+                -- 
                 green <= brght;
 
             when "10" =>
+                        
                 blue <= brght;
 
-            when others =>
+            when "11" =>
+                -- 
                 null;
+
         end case;
     end process;
 
 end Behavioral;
+
+
