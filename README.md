@@ -188,7 +188,7 @@ odkaz na source <a href="projek/sources/new/clk_en_fade.vhd">clk_en_fade.vhd</a>
 Simuluje vytvorenie prechodu farieb RGB pre konkrétne nastavenú hodnotu jasu a rýchlosti prechodu farieb
 <img width="1047" height="401" alt="tb_RGB_fade" src="images/sim_tb_RGB_fade.png"/>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_RGB_fade.vhd">tb_RGB_fade.vhd</a> <br>
-odkaz na source <a href="projek/sources/new/RGB_fade.vhd">RGB_fade.vhd</a>
+odkaz na source <a href="projekt/sources/new/RGB_fade.vhd">RGB_fade.vhd</a>
 
 <h2> Sim tb_PWM.vhd </h2>
 Simuluj tvorbu šírkovo modulačných pulzov podľa nastavených hodnôt jasu 
