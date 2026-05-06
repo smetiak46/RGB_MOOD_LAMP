@@ -222,3 +222,5 @@ Simuluj tvorbu šírkovo modulačných pulzov podľa nastavených hodnôt jasu
 </body>
 </table>  
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_PWM.vhd">tb_PWM.vhd</a>
+<h4>Odkazy</h4>
+Pre modul RGB_Fade bolo použité AI pre spravne nastavenie speedu a clk_en.<br> Constrain file je z<a href="https://github.com/Digilent/digilent-xdc/blob/master/Nexys-A7-50T-Master.xdc">githubu</a> 
