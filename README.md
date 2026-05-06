@@ -175,7 +175,7 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
   </tr>
 </table>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a> <br>
-odkaz na source <a href="projek/sources/new/brhgt_speed.vhd">brght_speed.vhd</a>
+odkaz na source <a href="projekt/sources/new/brght_speed.vhd">brght_speed.vhd</a>
 
 
 <h2> Sim tb_clk_en_fade </h2>
