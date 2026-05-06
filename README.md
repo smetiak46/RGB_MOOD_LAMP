@@ -234,5 +234,5 @@ odkaz na source <a href="projekt/sources/new/PWM.vhd">PWM.vhd</a>
 <h4>Odkazy a použité nástroje</h4>
 Xilinx Vivado 2025.2 <br>
 VHDL <br>
-AI - opravy logických chýb v bloku RGB_fade. <br> 
+AI - ChatGPT, Gemini. <br> 
 Constrain file je z <a href="https://github.com/Digilent/digilent-xdc/blob/master/Nexys-A7-50T-Master.xdc">githubu</a> 
