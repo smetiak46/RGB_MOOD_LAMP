@@ -175,6 +175,8 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
   </tr>
 </table>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a>
+odkaz na source <a href="projek/sources/new/brhgt_speed.vhd">brght_speed.vhd</a>
+
 
 <h2> Sim tb_clk_en_fade </h2>
 Simuluje spomalenie pôvodného clock signálu FPGA-čka
@@ -187,6 +189,7 @@ Simuluje vytvorenie prechodu farieb RGB pre konkrétne nastavenú hodnotu jasu a
 <img width="1047" height="401" alt="tb_RGB_fade" src="images/sim_tb_RGB_fade.png"/>
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_RGB_fade.vhd">tb_RGB_fade.vhd</a>
 odkaz na source <a href="projek/sources/new/RGB_fade.vhd">RGB_fade.vhd</a>
+
 <h2> Sim tb_PWM.vhd </h2>
 Simuluj tvorbu šírkovo modulačných pulzov podľa nastavených hodnôt jasu 
 <img width="1047" height="401" alt="tb_PWM" src="images/sim_tb_PWM.png"/>
@@ -224,8 +227,12 @@ Simuluj tvorbu šírkovo modulačných pulzov podľa nastavených hodnôt jasu
 </table>  
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_PWM.vhd">tb_PWM.vhd</a>
 odkaz na source <a href="projek/sources/new/PWM.vhd">PWM.vhd</a>
+
 <video width="320" height="240" controls>
   <source src="VID_202606506_154052861 (1).mp4" type="video/mp4">
 </video>
-<h4>Odkazy</h4>
-Pre modul RGB_Fade bolo použité AI pre spravne nastavenie speedu a clk_en.<br> Constrain file je z<a href="https://github.com/Digilent/digilent-xdc/blob/master/Nexys-A7-50T-Master.xdc">githubu</a> 
+<h4>Odkazy a použité nástroje</h4>
+Xilinx Vivado 2025.2 <br>
+VHDL <br>
+AI - opravy logických chýb v bloku RGB_fade. <br> 
+Constrain file je z <a href="https://github.com/Digilent/digilent-xdc/blob/master/Nexys-A7-50T-Master.xdc">githubu</a> 
