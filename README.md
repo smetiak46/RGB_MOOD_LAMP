@@ -14,7 +14,7 @@ Samuel - TOP_RGB_LAMPA.vhd, tb_PWM.vhd, výpis do gitu
 Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 <br>
 <h4> 4. týždeň </h4>
-debugging a uprava modulu clk_en_fade
+debugging a úprava modulu clk_en_fade
 <br>
 <h4> 5. týždeň </h4>
 implementácia a videonahrávka
