@@ -174,20 +174,20 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
     <td>prechod farieb je najrýchlejší možný</td>
   </tr>
 </table>
-odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a>
+odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a> <br>
 odkaz na source <a href="projek/sources/new/brhgt_speed.vhd">brght_speed.vhd</a>
 
 
 <h2> Sim tb_clk_en_fade </h2>
 Simuluje spomalenie pôvodného clock signálu FPGA-čka
 <img width="1047" height="401" alt="tb_clk_en_fade" src="images/sim_tb_clk_en_fade.png"/>
-odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/clk_en_fade_tb.vhd">tb_clk_en_fade.vhd</a>
+odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/clk_en_fade_tb.vhd">tb_clk_en_fade.vhd</a> <br>
 odkaz na source <a href="projek/sources/new/clk_en_fade.vhd">clk_en_fade.vhd</a>
 
 <h2> Sim tb_RGB_fade.vhd </h2>
 Simuluje vytvorenie prechodu farieb RGB pre konkrétne nastavenú hodnotu jasu a rýchlosti prechodu farieb
 <img width="1047" height="401" alt="tb_RGB_fade" src="images/sim_tb_RGB_fade.png"/>
-odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_RGB_fade.vhd">tb_RGB_fade.vhd</a>
+odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_RGB_fade.vhd">tb_RGB_fade.vhd</a> <br>
 odkaz na source <a href="projek/sources/new/RGB_fade.vhd">RGB_fade.vhd</a>
 
 <h2> Sim tb_PWM.vhd </h2>
@@ -225,7 +225,7 @@ Simuluj tvorbu šírkovo modulačných pulzov podľa nastavených hodnôt jasu
   </tr>
 </body>
 </table>  
-odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_PWM.vhd">tb_PWM.vhd</a>
+odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_PWM.vhd">tb_PWM.vhd</a> <br>
 odkaz na source <a href="projek/sources/new/PWM.vhd">PWM.vhd</a>
 
 <video width="320" height="240" controls>
