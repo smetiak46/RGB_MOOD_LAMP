@@ -16,7 +16,7 @@ Jakub - tb_RGB_fade, PWM.vhd, výpis do gitu
 <h4> 4. týždeň </h4>
 debugging a uprava modulu clk_en_fade
 <br>
-<h4> 3. týždeň </h4>
+<h4> 5. týždeň </h4>
 implementácia a videonahrávka
 <br>
 <h1> Blokové schéma </h1>
