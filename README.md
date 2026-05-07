@@ -233,7 +233,7 @@ odkaz na source <a href="projekt/sources/new/PWM.vhd">PWM.vhd</a>
 </video>
 
 <h4> Video </h4>
-<video src="https://github.com" controls width="100%"></video>
+<video src="video/git_video.mp4" controls width="100%"></video>
 
 <h4>Odkazy a použité nástroje</h4>
 Xilinx Vivado 2025.2 <br>
