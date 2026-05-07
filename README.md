@@ -233,7 +233,7 @@ Odkaz na video ukážku funkčného zariadenia <br>
 https://github.com/user-attachments/assets/7f6eb7ab-2c70-46c9-acaf-3b917cab8f8f
 
 <h4> Plagát </h4>
-<img width="1047" height="401" alt="tb_clk_en_fade" src="images/sim_tb_clk_en_fade.png"/>
+<img width="1047" height="401" alt="tb_clk_en_fade" src="video-plagat/plagat.JPG"/>
 
 <h4>Odkazy a použité nástroje</h4>
 Xilinx Vivado 2025.2 <br>
