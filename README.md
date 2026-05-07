@@ -174,7 +174,7 @@ Simuluje zmeny intenzity jasu pre definované konštanty a zmenu rýchlosti prec
     <td>prechod farieb je najrýchlejší možný</td>
   </tr>
 </table>
-odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a> <br>
+odkaz na testbench simulácie: <a href="projekt/projekt_DE_final.srcs/sim_1/new/brght_speed_tb.vhd">brhgt_speed_tb.vhd</a> <br>
 odkaz na source <a href="projekt/sources/new/brght_speed.vhd">brght_speed.vhd</a>
 
 
