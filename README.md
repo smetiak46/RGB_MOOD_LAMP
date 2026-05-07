@@ -232,10 +232,9 @@ odkaz na source <a href="projekt/sources/new/PWM.vhd">PWM.vhd</a>
   <source src="VID_202606506_154052861 (1).mp4" type="video/mp4">
 </video>
 
-<h4>Video</h4>
-
-<video controls width="100%">
-    <source src="video/video_git.mp4" type="video/mp4">
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
 <h4>Odkazy a použité nástroje</h4>
