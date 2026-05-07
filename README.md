@@ -231,6 +231,7 @@ odkaz na source <a href="projekt/sources/new/PWM.vhd">PWM.vhd</a>
 <video width="320" height="240" controls>
   <source src="VID_202606506_154052861 (1).mp4" type="video/mp4">
 </video>
+
 <h4>Odkazy a použité nástroje</h4>
 Xilinx Vivado 2025.2 <br>
 VHDL <br>
