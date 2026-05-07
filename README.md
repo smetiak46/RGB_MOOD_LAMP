@@ -229,6 +229,7 @@ odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_PWM.vhd">
 odkaz na source <a href="projekt/sources/new/PWM.vhd">PWM.vhd</a>
 
 <h4> Video </h4>
+Odkaz na video ukážku funkčného zariadenia <br>
 https://github.com/user-attachments/assets/7f6eb7ab-2c70-46c9-acaf-3b917cab8f8f
 
 <h4> Plagát </h4>
