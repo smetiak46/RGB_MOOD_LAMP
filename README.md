@@ -229,16 +229,10 @@ odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_PWM.vhd">
 odkaz na source <a href="projekt/sources/new/PWM.vhd">PWM.vhd</a>
 
 <h4> Video </h4>
-<video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-</video>
+https://github.com/user-attachments/assets/7f6eb7ab-2c70-46c9-acaf-3b917cab8f8f
 
 <h4> Plagát </h4>
 
-<video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 <h4>Odkazy a použité nástroje</h4>
 Xilinx Vivado 2025.2 <br>
