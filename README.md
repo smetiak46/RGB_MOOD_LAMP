@@ -228,9 +228,12 @@ Simuluj tvorbu šírkovo modulačných pulzov podľa nastavených hodnôt jasu
 odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_PWM.vhd">tb_PWM.vhd</a> <br>
 odkaz na source <a href="projekt/sources/new/PWM.vhd">PWM.vhd</a>
 
+<h4> Video </h4>
 <video width="320" height="240" controls>
   <source src="movie.mp4" type="video/mp4">
 </video>
+
+<h4> Plagát </h4>
 
 <video width="320" height="240" controls>
   <source src="movie.mp4" type="video/mp4">
