@@ -229,7 +229,7 @@ odkaz na testbench simulácie: <a href="projekt/sources/sim_sources/tb_PWM.vhd">
 odkaz na source <a href="projekt/sources/new/PWM.vhd">PWM.vhd</a>
 
 <video width="320" height="240" controls>
-  <source src="video/video_git.mp4" type="video/mp4">
+  <source src="movie.mp4" type="video/mp4">
 </video>
 
 <video width="320" height="240" controls>
